@@ -26,7 +26,7 @@ static std::mutex clients_mutex;
 static std::atomic <int> counter{0};
 
 void usage() {
-    printf("tcp server %s\n",
+    printf("echo-tcp server %s\n",
 #include "../version.txt"
    );
     printf("\n");
