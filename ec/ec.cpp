@@ -21,7 +21,7 @@ void myerror(const char* msg) { fprintf(stderr, "%s %s %d\n", msg, strerror(errn
 static int CID = 0;
 
 void usage() {
-    printf("tcp client %s\n",
+    printf("echo-tcp client %s\n",
 #include "../version.txt"
     );
     printf("\n");
